@@ -14,3 +14,5 @@ FROM(
     ) sub
 Group by 1
 Order by 1
+
+-- sum(o_totalprice) over (order by o_orderdate) as cumulative_sales
